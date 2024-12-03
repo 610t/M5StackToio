@@ -38,8 +38,6 @@
 #include <Wire.h>
 #include <Toio.h>
 
-static const uint8_t JOYSTICK_I2C_ADDR = 0x5e;
-
 // ライト ON/OFF 状態
 static bool light_on = false;
 
